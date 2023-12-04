@@ -44,6 +44,11 @@ module.exports = {
             "error",
             { groups: ["index", "sibling", "parent", "internal", "external", "builtin", "object", "type"] },
         ],
+        "prettier/prettier": [
+            "error", {
+                "endOfLine": "auto"
+            }
+        ],
     },
     overrides: [
         {
