@@ -1,9 +1,9 @@
-import BasicCommentList from '../components/CommentList';
-import { Button, Card, CardContent, Fade, Typography } from '@material-ui/core';
-import { Link } from 'react-router-dom';
-import Typewriter from 'typewriter-effect';
+import BasicCommentList from "../components/CommentList";
+import { Button, Card, CardContent, Fade, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const StyledThreadView: React.FC = () => {
     const [isShowTips, setIsShowTips] = useState(false);
@@ -13,8 +13,8 @@ const StyledThreadView: React.FC = () => {
     };
 
     return (
-        <div style={{ width: '30vw', margin: 'auto' }}>
-            <Typography style={{ padding: '1em 0' }}>
+        <div style={{ width: "30vw", margin: "auto" }}>
+            <Typography style={{ padding: "1em 0" }}>
                 <Typewriter
                     onInit={(typewriter) => {
                         typewriter
@@ -27,25 +27,25 @@ const StyledThreadView: React.FC = () => {
                 />
             </Typography>
             <Fade in={isShowTips} timeout={1000}>
-                <Typography style={{ paddingBottom: '1em' }}>
-                    {'Try looking at the '}
-                    <a href="https://v4.mui.com/">{'Material UI'}</a>
-                    {' docs to see what other components you can use!'}
+                <Typography style={{ paddingBottom: "1em" }}>
+                    {"Try looking at the "}
+                    <a href="https://mui.com/">{"Material UI"}</a>
+                    {" docs to see what other components you can use!"}
                 </Typography>
             </Fade>
             <Card>
                 <CardContent>
-                    <Typography component="p">{'Viewing thread:'}</Typography>
+                    <Typography component="p">{"Viewing thread:"}</Typography>
                     <Typography variant="h5" component="h5">
-                        {'Inspirational Quotes'}
+                        {"Inspirational Quotes"}
                     </Typography>
                     <Typography color="textSecondary" gutterBottom>
-                        {'by Aiken'}
+                        {"by Aiken"}
                     </Typography>
                     <Typography variant="body2" component="p">
                         {'"The best way to predict the future is to invent it."'}
                         <br />
-                        {'- Alan Kay'}
+                        {"- Alan Kay"}
                     </Typography>
                 </CardContent>
             </Card>
@@ -54,7 +54,7 @@ const StyledThreadView: React.FC = () => {
 
             <Link to="/">
                 <Button variant="contained" color="secondary">
-                    {'Back to threads'}
+                    {"Back to threads"}
                 </Button>
             </Link>
         </div>
