@@ -1,11 +1,11 @@
-import Home from './pages/Home';
-import BasicThreadView from './pages/BasicThreadView';
-import StyledThreadView from './pages/StyledThreadView';
-import React from 'react';
-import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { createTheme, ThemeProvider } from '@material-ui/core';
-import { blue, orange } from '@material-ui/core/colors';
+import Home from "./pages/Home";
+import BasicThreadView from "./pages/BasicThreadView";
+import StyledThreadView from "./pages/StyledThreadView";
+import React from "react";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { blue, orange } from "@mui/material/colors";
 
 const theme = createTheme({
     palette: {

@@ -1,5 +1,5 @@
-import BasicThreadList from '../components/BasicThreadList';
-import React from 'react';
+import BasicThreadList from "../components/BasicThreadList";
+import React from "react";
 
 const Home: React.FC = () => {
     return (

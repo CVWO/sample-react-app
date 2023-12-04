@@ -1,5 +1,3 @@
-import React from 'react';
-
 type Comment = {
     body: string;
     author: string;
