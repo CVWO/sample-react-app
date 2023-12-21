@@ -1,5 +1,3 @@
-github.com/CVWO/sample-go-app v0.0.0-20231204073348-61edbafb424c h1:ZPpg5VOfKxRXwmJHqEVy2ibtJ1pEYM9qgUKU3zWJJAo=
-github.com/CVWO/sample-go-app v0.0.0-20231204073348-61edbafb424c/go.mod h1:dJIxdIZbM5ubWtbiUChsyIxLdLMYjYIYTsccbIr/ANA=
 github.com/go-chi/chi/v5 v5.0.10 h1:rLz5avzKpjqxrYwXNfmjkrYYXOyLJd37pz53UFHC6vk=
 github.com/go-chi/chi/v5 v5.0.10/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
