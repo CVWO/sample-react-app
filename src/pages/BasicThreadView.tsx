@@ -1,4 +1,6 @@
-import BasicCommentList from "../components/CommentList";
+// import BasicCommentList from "../components/CommentList";
+// import BasicThreadList from "../components/BasicThreadList";
+import BasicPostList from "../components/Test";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
@@ -20,7 +22,7 @@ const BasicThreadView: React.FC = () => {
         <div style={{ width: "25vw", margin: "auto", textAlign: "center" }}>
             <h3>{"Inspirational Quotes"}</h3>
             <h4>{"Thread started by Aiken"}</h4>
-            <BasicCommentList styled={false} />
+            <BasicPostList styled={false} />
             <Link to="/">{`<- Back to threads`}</Link>
             <br />
             <br />
